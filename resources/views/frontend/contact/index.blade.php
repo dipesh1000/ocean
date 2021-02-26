@@ -40,7 +40,7 @@
                                 <!-- <textarea  class="form-control" >Messag</textarea> -->
                                 <textarea name="message" class="form-control textarea"></textarea>
                              </div>
-                            <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+                            {{-- <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
                                 <label class="col-md-4 control-label">Captcha</label>
                                 <div class="col-md-6 pull-center">
                                     {!! app('captcha')->display() !!}
@@ -50,7 +50,7 @@
                                         </span>
                                     @endif
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-group ">
                                 <button type="submit" class="btn submit">Submit Request</button>
                             </div>
